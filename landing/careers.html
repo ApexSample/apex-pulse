@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careers — Apex Electronics | Join Our Team</title>
+  <meta name="description" content="Join Apex Electronics and help build the future of privacy-first consumer electronics. Explore open roles across Engineering, Marketing, and more." />
+
+  <!-- Canonical -->
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://apexelectronics.com/careers" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Apex Electronics" />
+  <meta property="og:title" content="Careers — Apex Electronics" />
+  <meta property="og:description" content="Join Apex Electronics and help build privacy-first technology that puts users first." />
+  <meta property="og:url" content="https://apexelectronics.com/careers" />
+
+  <!-- JobPosting Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    "identifier": {
+      "@type": "PropertyValue",
+      "name": "Apex Electronics",
+      "value": "JP-001"
+    },
+    "title": "DevOps Engineer",
+    "description": "We're looking for a DevOps Engineer to build and maintain CI/CD pipelines, manage cloud infrastructure, automate deployments, and ensure system reliability for Apex products.",
+    "datePosted": "2026-04-20",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Apex Electronics",
+      "sameAs": "https://apexelectronics.com"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      }
+    },
+    "occupationalCategory": "Engineering",
+    "experienceRequirements": "Mid–Senior level",
+    "skills": "CI/CD (GitHub Actions, Jenkins), Kubernetes, Docker, Terraform, AWS, Python, Bash, Datadog, Grafana"
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --black: #0a0a0a;
+      --dark: #111111;
+      --card: #1a1a1a;
+      --border: #2a2a2a;
+      --accent: #00d4aa;
+      --accent-dark: #00a882;
+      --text: #f0f0f0;
+      --muted: #888888;
+      --white: #ffffff;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--black);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+
+    /* Nav */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10,10,10,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { font-size: 1.1rem; font-weight: 700; color: var(--white); letter-spacing: -0.02em; }
+    .nav-logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 24px; align-items: center; font-size: 0.9rem; }
+    .nav-links a { color: var(--muted); transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--accent); }
+
+    /* Page header */
+    .page-header {
+      padding: 80px 24px 64px;
+      max-width: 900px;
+      margin: 0 auto;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(0,212,170,0.07) 0%, transparent 70%);
+    }
+    .page-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(0,212,170,0.12); border: 1px solid rgba(0,212,170,0.3);
+      color: var(--accent); padding: 6px 16px; border-radius: 100px;
+      font-size: 0.85rem; font-weight: 600; margin-bottom: 24px;
+    }
+    .page-header h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800; letter-spacing: -0.04em; line-height: 1.1;
+      color: var(--white); margin-bottom: 16px;
+    }
+    .page-header h1 span { color: var(--accent); }
+    .page-header p {
+      font-size: 1.1rem; color: var(--muted); max-width: 560px;
+    }
+
+    /* Values strip */
+    .values-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 28px 24px;
+      display: flex; justify-content: center; flex-wrap: wrap;
+      gap: 12px 40px;
+      font-size: 0.85rem; color: var(--muted);
+    }
+    .values-strip span::before { content: '✓ '; color: var(--accent); font-weight: 700; }
+
+    /* Main content */
+    .content { max-width: 900px; margin: 0 auto; padding: 60px 24px; }
+
+    .section-label {
+      font-size: 0.75rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--accent); margin-bottom: 8px;
+    }
+    .section-title { font-size: clamp(1.5rem, 3.5vw, 2rem); font-weight: 800; letter-spacing: -0.03em; color: var(--white); margin-bottom: 40px; }
+
+    /* Job listing */
+    .job-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 28px;
+      margin-bottom: 24px;
+      transition: border-color 0.2s;
+    }
+    .job-card:hover { border-color: rgba(0,212,170,0.4); }
+
+    .job-header {
+      display: flex; align-items: flex-start; justify-content: space-between;
+      flex-wrap: wrap; gap: 16px; margin-bottom: 16px;
+    }
+    .job-title { font-size: 1.3rem; font-weight: 800; color: var(--white); letter-spacing: -0.02em; }
+    .job-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+    .tag {
+      font-size: 0.78rem; font-weight: 600; padding: 4px 12px;
+      border-radius: 100px; border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04); color: var(--muted);
+    }
+    .tag.open { background: rgba(0,212,170,0.12); border-color: rgba(0,212,170,0.3); color: var(--accent); }
+    .tag.dept { color: #b0b0f0; border-color: rgba(176,176,240,0.3); background: rgba(176,176,240,0.08); }
+
+    .job-id { font-size: 0.78rem; color: #555; font-weight: 600; }
+
+    .job-summary { color: var(--muted); font-size: 0.95rem; margin-bottom: 20px; line-height: 1.7; }
+
+    .job-details-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 12px 32px; margin-bottom: 24px;
+    }
+    .job-detail-row { font-size: 0.88rem; }
+    .job-detail-row .label { color: #555; display: block; margin-bottom: 2px; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+    .job-detail-row .value { color: var(--text); font-weight: 600; }
+
+    .skills-section { margin-bottom: 24px; }
+    .skills-section .label { color: #555; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; margin-bottom: 10px; }
+    .skills-list { display: flex; flex-wrap: wrap; gap: 8px; }
+    .skill-chip {
+      font-size: 0.8rem; padding: 5px 12px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .apply-btn {
+      display: inline-block;
+      background: var(--accent); color: var(--black);
+      padding: 14px 28px; border-radius: 10px;
+      font-weight: 800; font-size: 0.95rem;
+      transition: all 0.2s;
+    }
+    .apply-btn:hover { background: var(--accent-dark); transform: translateY(-1px); }
+
+    /* No more open roles placeholder */
+    .no-more {
+      text-align: center; padding: 48px 0; color: var(--muted); font-size: 0.95rem;
+    }
+
+    /* CTA Block */
+    .cta-block {
+      background: var(--card);
+      border: 1px solid rgba(0,212,170,0.2);
+      border-radius: 20px;
+      padding: 48px 40px;
+      text-align: center;
+      margin-top: 60px;
+    }
+    .cta-block h2 { font-size: 1.6rem; font-weight: 800; color: var(--white); margin-bottom: 12px; }
+    .cta-block p { color: var(--muted); margin-bottom: 24px; max-width: 480px; margin-left: auto; margin-right: auto; }
+    .cta-block a {
+      display: inline-block; background: var(--accent); color: var(--black);
+      padding: 14px 28px; border-radius: 10px; font-weight: 800; font-size: 0.95rem;
+      transition: background 0.2s;
+    }
+    .cta-block a:hover { background: var(--accent-dark); }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 24px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer strong { color: var(--white); }
+
+    @media (max-width: 600px) {
+      .job-details-grid { grid-template-columns: 1fr; }
+      .job-header { flex-direction: column; }
+      .cta-block { padding: 32px 20px; }
+      nav { padding: 12px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Apex <span>Electronics</span></div>
+  <div class="nav-links">
+    <a href="index.html">Apex Pulse</a>
+    <a href="careers.html" class="active">Careers</a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="page-badge">🚀 We're Hiring</div>
+  <h1>Build the future of<br><span>privacy-first tech.</span></h1>
+  <p>At Apex Electronics we make products that respect people. Come help us do it at scale.</p>
+</div>
+
+<div class="values-strip">
+  <span>Remote-friendly</span>
+  <span>Mission-driven team</span>
+  <span>Competitive comp &amp; equity</span>
+  <span>Full health benefits</span>
+  <span>Privacy by design</span>
+</div>
+
+<div class="content">
+  <div class="section-label">Open Positions</div>
+  <h2 class="section-title">Current Openings</h2>
+
+  <!-- ───────────── JP-001 DevOps Engineer ───────────── -->
+  <div class="job-card" id="JP-001">
+    <div class="job-header">
+      <div>
+        <div class="job-title">DevOps Engineer</div>
+        <div class="job-meta">
+          <span class="tag open">● Open</span>
+          <span class="tag dept">Engineering</span>
+          <span class="tag">Mid–Senior</span>
+          <span class="tag">Full-time</span>
+        </div>
+      </div>
+      <div class="job-id">JP-001</div>
+    </div>
+
+    <p class="job-summary">
+      We're looking for a DevOps Engineer to build and maintain CI/CD pipelines, manage cloud infrastructure, automate deployments, and ensure system reliability for Apex products. You'll be a key part of the Engineering team, working closely with Priya Sharma and the broader development org to keep our systems fast, secure, and always on.
+    </p>
+
+    <div class="job-details-grid">
+      <div class="job-detail-row">
+        <span class="label">Department</span>
+        <span class="value">Engineering</span>
+      </div>
+      <div class="job-detail-row">
+        <span class="label">Level</span>
+        <span class="value">Mid–Senior</span>
+      </div>
+      <div class="job-detail-row">
+        <span class="label">Hiring Manager</span>
+        <span class="value">Priya Sharma — Engineering Lead</span>
+      </div>
+      <div class="job-detail-row">
+        <span class="label">Status</span>
+        <span class="value" style="color: var(--accent);">Open</span>
+      </div>
+      <div class="job-detail-row">
+        <span class="label">Date Posted</span>
+        <span class="value">April 20, 2026</span>
+      </div>
+    </div>
+
+    <div class="skills-section">
+      <div class="label">Key Skills</div>
+      <div class="skills-list">
+        <span class="skill-chip">CI/CD</span>
+        <span class="skill-chip">GitHub Actions</span>
+        <span class="skill-chip">Jenkins</span>
+        <span class="skill-chip">Kubernetes</span>
+        <span class="skill-chip">Docker</span>
+        <span class="skill-chip">Terraform</span>
+        <span class="skill-chip">AWS</span>
+        <span class="skill-chip">Python</span>
+        <span class="skill-chip">Bash</span>
+        <span class="skill-chip">Datadog</span>
+        <span class="skill-chip">Grafana</span>
+      </div>
+    </div>
+
+    <a class="apply-btn" href="mailto:careers@apexelectronics.com?subject=Application: DevOps Engineer (JP-001)">Apply for This Role →</a>
+  </div>
+  <!-- ───────────── end JP-001 ───────────── -->
+
+  <div class="no-more">
+    <p>More roles coming soon — <a href="mailto:careers@apexelectronics.com">drop us your resume</a> and we'll reach out when the right fit opens up.</p>
+  </div>
+
+  <div class="cta-block">
+    <h2>Don't see your role?</h2>
+    <p>We're always interested in exceptional people. Send us a note — we'd love to hear what you can bring to Apex.</p>
+    <a href="mailto:careers@apexelectronics.com">Get in Touch →</a>
+  </div>
+</div>
+
+<footer>
+  <p><strong>Apex Electronics</strong> · apexelectronics.com · careers@apexelectronics.com</p>
+  <p style="margin-top: 16px; font-size: 0.75rem;">© 2026 Apex Electronics. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
