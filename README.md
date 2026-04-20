@@ -3,7 +3,7 @@
 > **The world's first independently audited, privacy-certified fitness band.**  
 > Medical-grade health monitoring. 100% on-device AI. No cloud. No subscription. $149.
 
-[![Security Audit](https://img.shields.io/badge/Security-Cure53%20Certified-00d4aa)](https://apexelectronics.com/security/cure53)
+[![Security Audit](https://img.shields.io/badge/Security-Cure53%20Certified-00d4aa)](#audit-report-publishing-may-7)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
 [![Launch Date](https://img.shields.io/badge/Ships-May%2015%202026-brightgreen)](https://apexpulse.apexelectronics.com)
 
@@ -46,7 +46,7 @@ All health insights — sleep scores, HRV analysis, SpO2 trends, skin temperatur
 | **Connectivity** | Bluetooth 5.3 · Wi-Fi · NFC Payments |
 | **Colors** | Midnight Black · Arctic Silver · Rose Titanium |
 | **Price** | $149 one-time · No subscription |
-| **Security** | [Cure53 Certified Firmware](https://apexelectronics.com/security/cure53) |
+| **Security** | [Cure53 Certified Firmware](#audit-report-publishing-may-7) |
 
 ---
 
@@ -54,7 +54,7 @@ All health insights — sleep scores, HRV analysis, SpO2 trends, skin temperatur
 
 Apex Pulse firmware has been independently audited by **Cure53** — the same firm that audits Firefox, ProtonMail, and Signal.
 
-- 📄 **Full audit report**: [apexelectronics.com/security/cure53](https://apexelectronics.com/security/cure53)
+- 📄 **Full audit report**: [Audit report publishing May 7, 2026](#audit-report-publishing-may-7)
 - The complete, unredacted report is published publicly
 - Audit covers: biometric sensor pipeline, Bluetooth stack, NFC, OTA update mechanism, cryptographic storage
 

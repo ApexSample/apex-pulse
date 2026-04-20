@@ -49,7 +49,7 @@ If a user chooses to export their health data:
 
 The complete firmware architecture was independently audited by Cure53. The full, unredacted report is available at:
 
-**[apexelectronics.com/security/cure53](https://apexelectronics.com/security/cure53)**
+**[Audit report — publishing May 7, 2026]** *(URL: apexelectronics.com/security/cure53)*
 
 Audit scope:
 - Privacy chip firmware

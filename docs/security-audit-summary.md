@@ -23,7 +23,7 @@ The Cure53 audit covered the complete Apex Pulse firmware and mobile application
 
 The complete, unredacted Cure53 audit report is published publicly:
 
-**[apexelectronics.com/security/cure53](https://apexelectronics.com/security/cure53)**
+**[Audit report — publishing May 7, 2026]** *(URL: apexelectronics.com/security/cure53)*
 
 We publish the full report — including any findings and their remediations — because transparency is foundational to the Apex Pulse privacy promise.
 
