@@ -96,6 +96,10 @@
       transition: background 0.2s;
     }
     .nav-cta:hover { background: var(--accent-dark); color: var(--black); }
+    .nav-links { display: flex; gap: 24px; align-items: center; }
+    .nav-links a { color: var(--muted); font-size: 0.9rem; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--white); }
+    @media (max-width: 640px) { .nav-links { display: none; } }
 
     section { padding: 80px 24px; max-width: 900px; margin: 0 auto; }
 
@@ -214,10 +218,12 @@
 
 <nav>
   <div class="nav-logo">Apex <span>Pulse</span></div>
-  <div style="display:flex;align-items:center;gap:20px;">
-    <a href="careers.html" style="font-size:0.88rem;color:#888;transition:color 0.2s;" onmouseover="this.style.color='#00d4aa'" onmouseout="this.style.color='#888'">Careers</a>
-    <a class="nav-cta" href="#preorder">Pre-Order — $149</a>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/careers">Careers</a>
   </div>
+  <a class="nav-cta" href="#preorder">Pre-Order — $149</a>
 </nav>
 
 <div class="hero">
@@ -344,6 +350,7 @@
 
 <footer>
   <p><strong>Apex Electronics</strong> · apexelectronics.com · press@apexelectronics.com</p>
+  <p style="margin-top:12px;"><a href="/about">About</a> · <a href="/careers">Careers</a></p>
   <p style="margin-top:8px;">Audit report publishing May 7, 2026 · Ships May 15, 2026</p>
   <p style="margin-top:16px; font-size:0.75rem;">© 2026 Apex Electronics. All rights reserved. Apex Pulse is a privacy-first fitness band. All health data processed on-device.</p>
 </footer>
